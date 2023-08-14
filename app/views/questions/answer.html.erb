@@ -1,0 +1,9 @@
+<div id="question-display" class="alert alert-light">
+  <%= @question %>
+  <h4><i>-You</i></h4>
+</div>
+<div id="answer-display" class="alert alert-warning">
+  <%= @answer %>
+  <h4><i>-Your Coach</i></h4>
+</div>
+<%= link_to "Ask again!", ask_path %>
